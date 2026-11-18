@@ -4,7 +4,7 @@ body {
     min-height: 100vh;
     display: grid;
     place-items: center;
-    background: radial-gradient((#00398f, #00040a));
+    background: radial-gradient((#00398f, #6aa2f7));
 }
 .clock {
     position: relative;
@@ -14,7 +14,7 @@ body {
     border: 7px solid #eed6ad;
     background: radial-gradient(
         circle at 35% 28%,
-        #303842, #111820 67%
+        #dc0606, #0154b4 67%
     );
     box-shadow:
         0 0 0 3px #423321,
@@ -46,14 +46,14 @@ body {
     top: 28%;
     width: 100%;
     text-align: center;
-    color: #e8ce96;
+    color: #040404;
     font: bold 14px Georgia;
     letter-spacing: 3px;
 }
 .brand small {
     display: block;
     margin-top: 7px;
-    color: #999da0;
+    color: #020202;
     font: 8px Arial;
     letter-spacing: 2px;
 }
@@ -66,7 +66,7 @@ body {
     text-align: center;
     font: 8px Arial, sans-serif;
     letter-spacing: 2px;
-    color: #c48303;
+    color: #0b0b0b;
 }
 .hand {
     position: absolute;
